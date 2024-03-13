@@ -1,0 +1,8 @@
+.main-content{
+    background-color: rgb(18, 18, 18);
+    overflow: auto;
+    flex-grow: 1;
+    border-radius: 1rem;
+    border-color: rgb(179, 179, 179);
+    margin-left: 5px;
+}
