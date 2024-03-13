@@ -3,7 +3,7 @@
     background-color: inherit;
     width: 330px;
     flex-direction: row;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     font-size: 12px;
     font-weight: 700;
 }
