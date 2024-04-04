@@ -12,3 +12,17 @@ a{
     text-decoration: none;
     color: inherit;
 }
+.main-content{
+    background-color: rgb(18, 18, 18);
+    overflow: auto;
+    flex-grow: 1;
+    border-radius: 0.3rem;
+    border-color: rgb(179, 179, 179);
+    margin-left: 5px;
+    position: relative;
+    margin: 6px 0 6px 6px;
+    padding: 0 1.5rem 6rem 1.5rem;
+}
+h2{
+    margin-top: 1rem;
+}

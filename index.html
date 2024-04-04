@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/main-content.css">
     <link rel="stylesheet" href="styles/sidebar.css">
-    <link rel="stylesheet" href="styles/video-player.css">
+    <link rel="stylesheet" href="styles/music-player.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video-grid.css">
+    <link rel="stylesheet" href="styles/footer.css">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
@@ -121,19 +124,146 @@
                     
                     <div class="user-signup">
                         <a class="btn btn-primary premium-btn" href="#" role="button">Explore Premium</a>
-                        <a class="btn btn-primary install-app-btn" href="#" role="button">Install App</a>
+                        <a class="btn btn-primary install-app-btn" href="#" role="button">
+                            <i class="fa-regular fa-circle-down"></i> Install App
+                        </a>
+                        <a href="#" class="profile"><i class="fa-regular fa-user"></i></a>
                     </div>
                 </div>
-                <div class="header-bottom"></div>
+                <div class="header-bottom">
+                    <a class="btn btn-primary header-bottom-btn" href="#" role="button">All</a>
+                    <a class="btn btn-primary header-bottom-btn" href="#" role="button">Music</a>
+                    <a class="btn btn-primary header-bottom-btn" href="#" role="button">Podcasts</a>
+                </div>
             </header>
 
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assets/card1img.jpeg" alt="" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+            </div>
 
-            <div></div>
+            <h2>Spotify Orignals</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assets/card1img.jpeg" alt="" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card2img.jpeg" alt="" class="card-img">
+                    <p class="card-title">Indie India</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card3img.jpeg" alt="" class="card-img">
+                    <p class="card-title">Rahat Fateh Ali Khan Songs</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card4img.jpeg" alt="" class="card-img">
+                    <p class="card-title">Party Songs</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                
+            </div>
 
+            <h2>Trending Now</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assets/card5img.jpeg" alt="" class="card-img">
+                    <p class="card-title">Top Songs Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card6img.jpeg" alt="" class="card-img">
+                    <p class="card-title">Top Songs India</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card1img.jpeg" alt="" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+            </div>
+                 
+            <div class="footer">
+                <div class="footer-ul-div">
+                    <ul class="first-footer-ul">
+                        <li class="ul-heading">Company</li>
+                        <li>About</li>
+                        <li>Jobs</li>
+                        <li>For The Record</li>
+                    </ul>
+                    <ul>
+                        <li class="ul-heading">Communities</li>
+                        <li>For Artists</li>
+                        <li>Developers</li>
+                        <li>Advertising</li>
+                        <li>Investors</li>
+                        <li>Vendors</li>
+                    </ul>
+                    <ul>
+                        <li class="ul-heading">Useful Links</li>
+                        <li>Support</li>
+                        <li>Free Mobile App</li>
+                    </ul>
+                </div>
+                
+                <div class="line"></div>
+
+                <div class="footer-bottom">
+                    <ul>
+                        <li>Legal</li>
+                        <li>Safety & Privacy Center</li>
+                        <li>Privacy Policy</li>
+                        <li>Cookies</li>
+                        <li>About Ads</li>
+                        <li>Accessibility</li>
+                    </ul>
+
+                    <ul style="opacity: 0.5;"> &#169; 2024 Spotify AB</ul>
+                </div>
+            </div>
         </div>
 
 
-        <div class="video-player">video-player</div>
+        <div class="music-player">
+            <div class="music-player-left">
+                <div class="current-song-pic-div">
+                    <img src="Homework Assets/album_picture.jpeg" alt="OOPS" class="current-song-pic">
+                </div>
+                <div class="current-song-info-div">
+                    <p class="current-song-title">Laal Ghaghra - From "Good Newwz"</p>
+                    <p class="current-song-singers"><span>Neha Kakkar</span>,<span> Herbie Sahara</span></p>
+                </div>
+                <div class="add-current-song">
+                    <img src="Homework Assets/album_icon1.png" alt="OOPS" style="margin-left: 8px;">
+                </div>
+            </div>
+
+            <div class="music-player-middle">
+                <div class="player-controls">
+                    <img src="assets/player_icon1.png" class="controls-icon" style="opacity: 0.2;">
+                    <img src="assets/player_icon2.png" class="controls-icon">
+                    <img src="assets/player_icon3.png" class="controls-icon" style="opacity: 1;" id="play-pause-icon">
+                    <img src="assets/player_icon4.png" class="controls-icon">
+                    <img src="assets/player_icon5.png" class="controls-icon" style="opacity: 0.2;">
+                </div>
+                <div class="progress-bar">
+                    <span class="current-time">00:00</span>
+                    <input type="range" min="0" max="100" class="bar" step="1">
+                    <span class="total-time">3:33</span>
+                </div>
+            </div>
+
+            <div class="music-player-right">
+                
+            </div>
+        </div>
     </div>
     
 

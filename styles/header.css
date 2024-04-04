@@ -1,0 +1,85 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: #121212;
+    padding: 0.8rem 0;
+    z-index: 100;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+.forward, .back{
+    padding: 0.4rem;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    height: 24px;
+}
+.user-signup a{
+    margin-right: 0.3rem;
+}
+.premium-btn{
+    background-color: white;
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 3px 8px;
+    border: 1px solid black;
+}
+.install-app-btn{
+    background-color: black;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 3px 7px;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+.install-app-btn:hover, .premium-btn:hover{
+    transform: scale(1.1);
+    border: 1px solid black;
+}
+.premium-btn:hover{
+    background-color: white;
+    color: black;
+}
+.install-app-btn:hover{
+    background-color: black;
+}
+.profile{
+    padding: 0.3rem 0.4rem;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 20px;
+}
+.header-bottom-btn{
+    transition: 0.3s;
+    background-color: rgba(45, 45, 45, 0.8);
+    padding: 3px 9px;
+    border-radius: 0.8rem;
+    font-weight: 400;
+    font-size: 11px;
+    margin-right: 3px;
+    border: none;
+}
+.header-bottom-btn:hover{
+    background-color: rgba(45, 45, 45, 0.7);
+    border: 1px solid black;
+    border: none;
+}
+.header-bottom-btn.btn:active {
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 1000px) {
+    .forward, .premium-btn{
+        display: none;
+    }
+}
